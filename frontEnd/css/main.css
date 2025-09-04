@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.home{
+  background-color: #2b2b2b;
+}
+
+#navbar{
+  display: flex;
+  flex-wrap: wrap; /* allows items to wrap to the next line */
+  justify-content: space-between;
+}
+
+#weightTrainingBody{
+  background-color: #2b2b2b;
+}
+
+.full-bg-wrapper {
+  height: 100vh;
+  background-image: url("gym.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+.usernameText{
+  color: #ffc107;
+  font-size: large;
+  
+}
+.passwordText{
+  color: #ffc107;
+  font-size: large;
+}
+.myButton{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.spacing{
+  margin-top: 40px;
+  
+}
+.spacing2{
+
+  margin-bottom: 10px;
+
+}
+
+.titleBox{
+  text-decoration:underline;
+  margin-bottom: 50px;
+  color: #ffc107;
+  font-family: 'Oswald', sans-serif;
+  font-size: 65px;
+}
+.username{
+  background-color: #2b2b2b;
+  border-color: #ffc107;
+  color:#ffc107
+}
+.password{
+  background-color: #2b2b2b;
+  border-color: #ffc107;
+  color:#ffc107
+}
+
+.spacing3{
+
+  margin-bottom: 10px;
+
+}
+
+#dashboardBody{
+  background-color: #2b2b2b;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#2b2b2b;
+}
+li a{
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color:#ffc107;
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  font-size: 20px;
+}
+
+li a:hover{
+  background-color: #333333;
+  color:white;
+}
+
+#thinline{
+  background-color: #ffc107;
+}
+#cardNO1{
+  margin-top: 50px;
+  width: 220px;
+  height: 330px;
+  border: solid #ffc107 2px;
+}
+
+#cardNO1 picture{
+  border: 2px #ffc107 solid;
+}
+
+#cardNO1{
+  background-color: rgba(43, 43, 43, 0.6);
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  width: 220px;
+  height: 360px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-top: 25px;
+}
+.cardNO1 title{
+  background-color: #2b2b2b
+}
+
+#cardbodyNO1{
+  background-color: #2b2b2b;
+  border-radius: 16px;
+}
+
+#cardNO2{
+  background-color: rgba(43, 43, 43, 0.6);
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  width: 220px;
+  height: 360px;
+  margin-left: 150px;
+}
+
+#cardbodyNO2{
+  background-color: #2b2b2b;
+  border-radius: 16px;
+}
+
+#cardNO3{
+  background-color: rgba(43, 43, 43, 0.6);
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  width: 220px;
+  height: 360px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+#cardbodyNO3{
+  background-color: #2b2b2b;
+  border-radius: 16px;
+}
+
+#cardNO4{
+  background-color: rgba(43, 43, 43, 0.6);
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  width: 220px;
+  height: 360px;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+#cardbodyNO4{
+  background-color: #2b2b2b;
+  border-radius: 16px;
+}
+
+#graph-card{
+  background-color: rgba(43, 43, 43, 0.6);
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  width: 550px;
+  height: 740px;
+  margin-top: 25px;
+  margin-left: -25px;
+}
+
+#graph-card-body{
+  background-color: #2b2b2b;
+  color: #ffc107;
+  border-radius: 16px;
+}
+
+#graph-card-text{
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+#graph-card-title{
+  padding-top: 10px;
+}
+
+.Dcard:hover{
+  background-color:  #353535 !important;
+}
+
+.Dcard:hover .card-body{
+  background-color:  #353535 !important;
+  
+}
+
+#dropdown1{
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  background-color: #ffc107;
+  color: #2b2b2b;
+  margin-top: 50px;
+  margin-left: 50px;
+  border: #ffc107 solid;
+  border-radius: 10px;
+  width: 225px;
+}
+
+#dropdown2{
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  background-color: #ffc107;
+  color: #2b2b2b;
+  margin-top: 50px;
+  margin-left: 75px;
+  border: #ffc107 solid;
+  border-radius: 10px;
+  
+}
+
+#dropdownCard{
+  width: 225px;
+  background-color: #2b2b2b;
+  border: 2px solid #ffc107;
+}
+
+#dropdown1Menu, #dropdown2Menu{
+  font-size: medium;
+  margin-bottom: 1px;
+  color: #ffc107;
+}
+
+#SleepJournalBody{
+  background-color: #2b2b2b;
+}
+
+#sleepGraphCard{
+  background-color: rgba(43, 43, 43, 0.6);
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+  wdith: 600px;
+  height: 600px;
+  margin-top: 50px;
+  background-color: #2b2b2b;
+
+}
+
+#sleepGraphCard:hover{
+  background-color: #353535;
+}
+
+#startTimeInput{
+  background-color: #2b2b2b;
+  border: 2px solid #ffc107;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  color: #ffc107;
+  
+  
+}
+
+#endTimeInput{
+  background-color: #2b2b2b;
+  border: 2px solid #ffc107;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  color: #ffc107;
+}
+
+.save{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#AboutBody{
+  background-color: #2b2b2b;
+}
+
+#CardioBody{
+  background-color: #2b2b2b;
+}
+
+#AchievementsBody{
+  background-color: #2b2b2b;
+}
+
+#CaloriesBody{
+  background-color: #2b2b2b;
+}
+
+.settingsCard{
+  margin-top: 50px;
+  width: 400px;
+  background-color: rgba(43, 43, 43, 0.6) !important;
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+}
+
+.settingsCard:hover{
+  background-color:  #353535 !important;
+  border: #353535 !important;
+}
+
+#settingsCol{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center horizontally */
+  gap: 1rem;
+}
+
+.btn:hover{
+  background: #b28904 !important;
+  
+}
+
+.sleepCard{
+  background-color: #2b2b2b;
+}
+
+#add-exercise{
+  width: 160px;
+  margin-left: 20px;
+  margin-top: 50px;
+  height: 41px;
+  border-radius: 12px;
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  color: #2b2b2b;
+}
+
+#dropdownCard3{
+  color: #ffc107;
+  background-color: #2b2b2b;
+  border: 2px solid #ffc107;
+
+}
+
+#dropdownCard3 .dropdown-item{
+  font-size: medium;
+  margin-bottom: 1px;
+  color: #ffc107;
+}
+
+#dropdownCard3 .dropdown-item:hover{
+  color: black;
+}
+
+#dropdown3{
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  background-color: #ffc107;
+  color: #2b2b2b;
+  margin-top: 50px;
+  margin-left: 75px;
+  border: #ffc107 solid;
+  border-radius: 10px;
+  
+}
+
+.inputText1{
+  width: 330px;
+  background-color: #2b2b2b;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  margin-left: -140px;
+  margin-top: 15px;
+}
+
+.inputText2{
+  width: 330px;
+  background-color: #2b2b2b;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  margin-left: -140px;
+  margin-top: 30px;
+}
+
+.cardioSaveBtn{
+  margin-left: -140px;
+  margin-top: 20px;
+  width: 100px;
+  background-color: #ffc107;
+  color: m#2b2b2b;
+  border: none;
+  border-radius: 8px;
+}
+
+.cardioSaveBtn:hover{
+  background-color: #b28904;
+}
+
+#cardio-list{
+  margin-left: -140px;
+  margin-top: 50px;
+  list-style-type: none;
+  color: #ffc107;
+  padding: 10;
+  height: 400px;
+  width: 300px;
+  border: solid;
+  border-radius: 16px;
+}
+
+.cardioListItem{
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+#cardioGraph{
+  width: 500px;
+  height: 500px;
+}
+
+#foodInput{
+  width: 150px;
+  margin-left: 15px;
+  margin-top: 25px;
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  border: 2px solid #ffc107;
+  color: #ffc107
+}
+
+#foodList{
+  width: 400px;
+  height: 500px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 16px;
+  border: 2px solid #ffc107;
+
+}
+
+#calorieGraph{
+  margin-left: 550px;
+  margin-top: -690px;
+  width: 650px;
+  height: 680px;
+  background-color: rgba(43, 43, 43, 0.6) !important;
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+}
+
+#cardioGraph{
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 700px;
+  height: 680px;
+  background-color: rgba(43, 43, 43, 0.6) !important;
+  backdrop-filter: blur;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 16px;
+}
+
+#regBody{
+  background-color: #2b2b2b;
+
+}
+
+#usernameUpdate{
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 15px;
+  background-color: #2b2b2b;
+  color: #ffc107;
+  border: solid 2px #ffc107;
+  border-radius: 16px;
+}
+
+#pwdUpdate{
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 15px;
+  background-color: #2b2b2b;
+  color: #ffc107;
+  border: solid 2px #ffc107;
+  border-radius: 16px;
+}
+
+#gainLabel, #loseLabel{
+  color: #ffc107;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#lose{
+  margin-left: 15px;
+  accent-color: #ffc107;
+}
+
+#gain{
+  accent-color: #ffc107;
+}
+
+#regBody{
+  background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+}

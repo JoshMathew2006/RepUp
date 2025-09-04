@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel = "stylesheet" href = "css/main.css">
+		<meta charset="UTF-8">
+		<meta name="description" content ="this is josh's first html project" >
+		<title>repUP</title>
+		<link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel = "stylesheet">
+		<link rel="icon" href="favicon2.png" type="image/png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+	</head>
+
+	<body id = "CardioBody">
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+		<div class = "container">
+
+			<div class = "row">
+
+				<div class = "col sm-6">
+					
+						<ul id = "navbar" class = "d-flex justify-content-center list-unstyled">
+							<li><a href = "Dashboard.html">DASHBOARD</a>
+							<li><a href = "weightTraining.html">WEIGHT TRAINING</a></li>
+							<li><a href = "SleepJournal.html">SLEEP JOURNAL</a></li>
+							<li><a href = "cardio.html">CARDIO</a></li>
+							<li><a href = "Calories.html">CALORIES</a></li>
+							<li><a href = "About.html">ABOUT</a></li>
+                            <li><a href = "Settings.html">SETTINGS</a></li>
+						</ul>
+					
+				</div>
+
+			</div>
+
+			<div class = "row g-0">
+
+				<div class = "col">
+
+					<div class = "card" id = "thinLine">
+                        
+					</div>
+
+				</div>
+
+			</div>
+
+			<div  class = "row g-0">
+
+				<div class = "col-md-2">
+
+ 					<div class="dropdown">
+
+							<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id = "dropdown3">
+							Exercise
+							</button>
+							<ul class="dropdown-menu" id="dropdownCard3">
+
+								<li><button class="dropdown-item" data-value="Running">Running</button></li>
+
+								<li><button class="dropdown-item" data-value="Walking">Walking</button></li>
+
+								<li><button class="dropdown-item" data-value="Cycling">Cycling</button></li>
+
+								<li><button class="dropdown-item" data-value="Swimming">Swimming</button></li>
+
+								<li><button class="dropdown-item" data-value="Jump Rope">Jump Rope</button></li>
+
+								<li><button class="dropdown-item" data-value="Elliptical">Elliptical</button></li>
+								
+								<li><button class="dropdown-item" data-value="Aerobics">Aerobics</button></li>
+								
+							</ul>
+
+					</div>
+
+				</div>
+
+				<div class = "col-md-2">
+
+						<button type = "button" class = "btn btn-warning" id = "add-exercise">Add Exercise</button>
+						<div id="inputContainer"></div>
+
+						<div id = "saveInpBtn"></div>
+
+						<div id="inputContainer2"></div>
+
+						<div id = "saveInpBtn2"></div>
+
+						<ul id = "cardio-list"></ul>
+				
+				</div>
+
+				<div class = "col-md-6">
+
+					<div class = card id = "cardioGraph">
+
+
+
+					</div>
+
+				</div>
+
+				
+			</div>
+
+			<script src = "RepUpJS.js"></script>
+
+    </body>
+
+</html>
